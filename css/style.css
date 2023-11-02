@@ -26,6 +26,7 @@ header{
     z-index: 1;
     padding: 16px;
 }
+/* prova qui sopra */
 .flex{
     display: flex;
 }
@@ -35,6 +36,8 @@ header{
 }
 .product-container {
     position: relative;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 .my-row {
     display: flex;
@@ -61,7 +64,7 @@ nav ul > li > a{
 img,  
 header nav > a{
     height: 100%;
-
+}
 /* main */
 
 img {
@@ -78,9 +81,17 @@ img {
    background-color: green;
    color: white;
    position: absolute;
-   left: 10%;
+   left: 15%;
    top: 80%;
 }
+.sustainability-left{
+    background-color: green;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 80%;
+}
+
 .heart{
     background-color: white;
     height: 20px; 
