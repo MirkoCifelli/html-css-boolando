@@ -135,9 +135,7 @@ footer{
     height: 150px;
     background-color: #1A1A1A;
     color: white;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
+  
 }
 footer nav ul li {
     padding: 10px 0
@@ -147,17 +145,15 @@ nav ul h4{
     min-height: 1.5em;
     padding-top: 20px;
     padding-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 footer nav ul li {
     display: inline;
     padding-top: 20px;
 }
-.special{
-    display: block;
-    padding-top: 20px;
-}
+
 ul li > * {
 margin-left: 20px;
 padding-left: 10px;
 }
+
