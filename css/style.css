@@ -21,11 +21,13 @@ html {
 header{
     background-color: #FF6900;
     height: 50px;
-    /* position: fixed; */
+     position: fixed; 
     width: 100%;
     z-index: 1;
     padding: 16px;
 }
+
+
 /* prova qui sopra */
 .flex{
     display: flex;
@@ -61,6 +63,7 @@ nav ul > li > a{
     text-decoration: none;
     color: white;
 }
+
 img,  
 header nav > a{
     height: 100%;
@@ -109,4 +112,19 @@ img {
 }
 .line-through{
     text-decoration: line-through;
+}
+/* after on top */
+.img-after{
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+}
+.product-container:hover .img-after{
+    display: block;
 }
