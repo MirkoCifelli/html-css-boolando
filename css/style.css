@@ -18,3 +18,36 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+header{
+    background-color: #FF6900;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 16px;
+}
+/* header */
+header nav{
+    height: 100%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul > li{
+    display: inline;
+}
+nav ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+img, 
+header nav > a{
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.flex-center{
+    justify-content: space-between;
+    align-items: center;
+}
